@@ -1,1 +1,97 @@
 // Specific CSS for your home-page
+.banner {
+  text-align: center;
+  height: calc(110vh - 90px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 7px;
+}
+.banner p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  opacity: 0.6;
+  margin-bottom: 0px;
+}
+
+.banner-content {
+position: absolute;
+top: 60px;
+}
+.body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.scroll-indicator {
+  position: absolute;
+  left: 50%;
+  font-size: 50px;
+
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+   0% { top: 20%; }
+   50%   { top: 25%; }
+   100% { top: 20%; }
+}
+
+@keyframes bounce {
+   0% { top: 25%; }
+   50%   { top: 30%; }
+   100% { top: 25%; }
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+.contact-form-text-area {
+  color: grey;
+}
+.hidden { display: none; }
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: center;
+font-size: .8em;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+font-size: .8em;
+}

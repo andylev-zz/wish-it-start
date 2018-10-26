@@ -33,6 +33,7 @@ top: 60px;
 }
 
 .scroll-indicator {
+  color: white;
   position: absolute;
   left: 50%;
   font-size: 50px;
@@ -54,14 +55,17 @@ top: 60px;
 }
 
 
-.form {
+.contact_form {
     margin: 0 auto;
     width: 300px;
+
 }
 
 
 .contact-form-text-area {
   color: grey;
+    margin: 0 auto;
+    width: 300px;
 }
 .hidden { display: none; }
 .alert-error {
@@ -95,3 +99,30 @@ color: #468847;
 text-align: left;
 font-size: .8em;
 }
+.carousel-caption {
+   color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 7px;
+}
+.carousel-caption h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 600px;
+}
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+

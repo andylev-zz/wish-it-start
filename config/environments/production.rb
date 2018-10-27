@@ -104,8 +104,8 @@ config.action_mailer.default :charset => "utf-8"
     port:                      587,
     domain:                 'https://git.heroku.com/wish-it-draft.git
 ',
-    user_name:           ENV["andylevis@gmail.com"],
-    password:              ENV["Vi0letaprilgmail"],
+    user_name:           ENV["wishiteventsmanagement@gmail.com"],
+    password:              ENV["newbeginnings"],
     authentication:      'plain',
     enable_starttls_auto: true  }
 

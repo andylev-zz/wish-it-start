@@ -11,7 +11,7 @@ module WishItStart
     config.generators do |generate|
           generate.assets false
           generate.helper false
-          config.assets.enabled = true
+
           generate.test_framework  :test_unit, fixture: false
           config.assets.initialize_on_precompile = false
         end

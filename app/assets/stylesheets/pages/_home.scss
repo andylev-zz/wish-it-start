@@ -32,15 +32,6 @@ top: 60px;
   color: #333;
 }
 
-.scroll-indicator {
-  color: white;
-  position: absolute;
-  left: 50%;
-  font-size: 50px;
-
-  -webkit-animation: bounce 1s infinite;
-  animation: bounce 1s infinite;
-}
 
 @-webkit-keyframes bounce {
    0% { top: 20%; }
@@ -100,11 +91,15 @@ text-align: left;
 font-size: .8em;
 }
 .carousel-caption {
-   color: white;
+  color: white;
   font-size: 60px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   margin-bottom: 7px;
+
+  position: fixed;
+  top: 40px;
+  align-items: center;
 }
 .carousel-caption h1 {
   color: white;
@@ -112,15 +107,29 @@ font-size: .8em;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   margin-bottom: 600px;
+  align-items: center;
 }
 .carousel-caption p {
   font-size: 20px;
   font-weight: bold;
-  color: white;
-  opacity: 0.6;
+  color: red;
+
   margin-bottom: 0px;
 }
+.caption {
+  color: white;
+  left: 40%;
+  position: fixed;
+  top: 40px;
+}
+.scroll-indicator {
+  color: white;
+  position: absolute;
+  font-size: 50px;
 
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
 
 
 

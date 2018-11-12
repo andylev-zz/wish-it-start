@@ -97,9 +97,9 @@ Rails.application.configure do
 config.action_mailer.default_url_options = { :host => 'https://git.heroku.com/wish-it-draft.git' }
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.perform_deliveries = true
-config.action_mailer.raise_delivery_errors = false
+config.action_mailer.raise_delivery_errors = true
 config.action_mailer.default :charset => "utf-8"
-  config.action_mailer.smtp_settings = {
+config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
     port:                      587,
     domain:                 'https://git.heroku.com/wish-it-draft.git
